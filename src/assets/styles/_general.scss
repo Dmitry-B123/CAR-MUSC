@@ -1,0 +1,39 @@
+*, *::after, *::before {
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   font-family: $fontMain;
+   color: $colorMain;
+   background-color: $bgcolor;
+}
+
+a {
+   text-decoration: none;
+}
+
+li {
+   list-style: none;
+}
+
+ul {
+   margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   margin: 0;
+}
+
+nav {
+   margin: 0;
+}
+
+.container {
+   max-width: 1200px;
+   width: 100%;
+   margin: 0 auto;
+}
