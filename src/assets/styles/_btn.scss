@@ -1,0 +1,68 @@
+// header burger
+.burger {
+   position: relative;
+
+   border: none;
+   background-color: inherit;
+
+   span,
+   &::after,
+   &::before {
+      display: block;
+      width: 40px;
+      height: 3px;
+      background-color: $colorSecond;
+   }
+
+   &::after,
+   &::before {
+      position: absolute;
+      content: "";
+      left: 15px;
+   }
+
+   &::after {
+      bottom: 0;
+   }
+
+   &::before {
+      top: 0;
+   }
+}
+
+// btn
+.btn {
+   position: relative;
+   z-index: 1;
+
+   display: inline-block;
+   padding: 1.5rem 2.5rem;
+   
+   border: none;
+   background-color: inherit;
+
+   font-size: 2.4rem;
+   line-height: 140%;
+   text-align: center;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+   
+   &::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 30%;
+      z-index: -1;
+
+      content: "";
+      display: block;
+      transition: right 0.2s linear;
+
+      background-color: $colorSecond;
+   }
+
+   &:hover::after {
+      right: 0;
+   }
+}

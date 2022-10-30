@@ -14,6 +14,7 @@ body {
 
 a {
    text-decoration: none;
+   color: inherit;
 }
 
 li {
@@ -22,6 +23,7 @@ li {
 
 ul {
    margin: 0;
+   padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,7 +35,26 @@ nav {
 }
 
 .container {
-   max-width: 1200px;
+   max-width: 1296px;
    width: 100%;
    margin: 0 auto;
+}
+
+.hero {
+   background: #1E1E1E url(../images/header/background.jpg) no-repeat center center;
+   background-size: cover;
+}
+
+.decoration {
+   display: flex;
+   justify-content: center;
+   gap: 3rem;
+
+   .roumb {
+      display: block;
+      background: url(../images/roumb.svg) no-repeat center;
+      background-size: cover;
+      width: 1.5rem;
+      height: 1.5rem;
+   }
 }

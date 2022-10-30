@@ -1,0 +1,47 @@
+.hero__info {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+
+   border-top: 1px solid rgba($colorMain, 0.3);
+   border-bottom: 1px solid rgba($colorMain, 0.3);
+}
+
+.hero__blocks {
+   padding: 5rem 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   color: $colorSecond;
+
+   .hero__blocks-info {
+      margin-bottom: 2rem;
+
+      font-size: 1.8rem;
+      line-height: 140%;
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: $colorMain;
+   }
+
+   .hero__blocks-description {
+      max-width: 26.5rem;
+   }
+
+   .hero__blocks-description,
+   .hero__blocks-tel,
+   .hero__blocks-time {
+      margin: 0;
+
+      font-size: 2.4rem;
+      line-height: 140%;
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+   }
+}
+
+.hero__blocks:not(:first-child) {
+   border-left: 1px solid rgba($colorMain, 0.3);
+}
