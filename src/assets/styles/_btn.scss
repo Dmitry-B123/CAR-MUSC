@@ -37,7 +37,7 @@
 
    display: inline-block;
    padding: 1.5rem 2.5rem;
-   
+
    border: none;
    background-color: inherit;
 
@@ -46,7 +46,7 @@
    text-align: center;
    letter-spacing: 0.05em;
    text-transform: uppercase;
-   
+
    &::after {
       position: absolute;
       top: 0;
@@ -65,4 +65,15 @@
    &:hover::after {
       right: 0;
    }
+}
+
+.form__btn {
+   &::after {
+      right: 50%;
+   }
+}
+
+.btn-small {
+   padding: 1rem 2rem;
+   font-size: 1.8rem;
 }

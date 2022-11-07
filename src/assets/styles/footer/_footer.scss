@@ -1,0 +1,19 @@
+.footer {
+   margin-top: 10rem;
+   border-top: 1px solid #898989;
+   padding: 3.3rem 0;
+
+   .footer__inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   .footer__copy {
+      font-size: 1.6rem;
+      line-height: 140%;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: rgba($colorMain, 0.5);
+   }
+}

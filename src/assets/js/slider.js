@@ -9,7 +9,16 @@ $('.slider__content').slick({
    nextArrow: $('.slider__2'),
 });
 
-//slider2
+//slider2-2
+$('.info__slider-block-2').slick({
+   infinite: true,
+   slidesToScroll: 1,
+   autoplay: false,
+   prevArrow: $('.info__slider-3'),
+   nextArrow: $('.info__slider-4'),
+});
+
+//slider2-1
 $('.info__slider-block').slick({
    infinite: true,
    slidesToScroll: 1,
