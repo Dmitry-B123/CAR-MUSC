@@ -18,6 +18,12 @@
       text-transform: uppercase;
    }
 
+   .achievements__title-service {
+      max-width: 53rem;
+
+      font-size: 3.2rem;
+   }
+
    .decoration {
       margin: 4rem 0 6rem;
       justify-content: flex-start;
@@ -31,6 +37,17 @@
       font-size: 2.4rem;
       line-height: 120%;
       letter-spacing: 0.03em;
+   }
+
+   .block-logos {
+      max-width: 53rem;
+      display: flex;
+      flex-wrap: wrap;
+
+      img {
+         display: block;
+         padding: 5rem;
+      }
    }
 }
 

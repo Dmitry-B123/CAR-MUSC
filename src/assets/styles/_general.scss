@@ -1,4 +1,6 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
    box-sizing: border-box;
 }
 
@@ -26,7 +28,12 @@ ul {
    padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
    margin: 0;
 }
 
@@ -41,8 +48,9 @@ nav {
 }
 
 .hero {
-   background: #1E1E1E url(../images/header/background.jpg) no-repeat center center;
+   background: #1e1e1e url(../images/header/background.jpg) no-repeat center center;
    background-size: cover;
+   min-height: 100rem;
 }
 
 .decoration {
@@ -65,4 +73,10 @@ nav {
    text-align: center;
    letter-spacing: 0.05em;
    text-transform: uppercase;
+}
+
+.block__title-services {
+   max-width: 63.6rem;
+   margin-right: auto;
+   margin-left: auto;
 }

@@ -1,0 +1,33 @@
+.table {
+   margin-top: 18rem;
+
+   .decoration {
+      margin: 4rem 0 6rem;
+   }
+
+   .table-content {
+      margin: 0 auto;
+
+      font-size: 2.4rem;
+      line-height: 140%;
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+
+      border-collapse: collapse;
+
+      td {
+         padding: 2.5rem;
+         border-bottom: 1px solid #898989;
+         border-top: 1px solid #898989;
+      }
+
+      tbody {
+         color: rgba($colorMain, 0.5);
+
+         .table__td-red {
+            color: $colorSecond;
+         }
+      }
+   }
+}

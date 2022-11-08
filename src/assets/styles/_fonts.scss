@@ -1,7 +1,6 @@
 @font-face {
    font-family: $fontMain;
-   src: url("../fonts/ReformaGroteskDemi.woff2") format("woff2"),
-   url("../fonts/ReformaGroteskDemi.woff") format("woff");
+   src: url("../fonts/ReformaGroteskDemi.woff2") format("woff2"), url("../fonts/ReformaGroteskDemi.woff") format("woff");
    font-weight: 600;
    font-style: normal;
    font-display: swap;
@@ -10,16 +9,15 @@
 @font-face {
    font-family: $fontMedium;
    src: url("../fonts/ReformaGroteskMedium.woff2") format("woff2"),
-   url("../fonts/ReformaGroteskMedium.woff") format("woff");
+      url("../fonts/ReformaGroteskMedium.woff") format("woff");
    font-weight: 500;
    font-style: normal;
    font-display: swap;
 }
 
 @font-face {
-   font-family: $fontBold;
-   src: url("../fonts/ReformaGroteskBold.woff2") format("woff2"),
-   url("../fonts/ReformaGroteskBold.woff") format("woff");
+   font-family: $fontdold;
+   src: url("../fonts/ReformaGroteskBold.woff2") format("woff2"), url("../fonts/ReformaGroteskBold.woff") format("woff");
    font-weight: 700;
    font-style: normal;
    font-display: swap;
