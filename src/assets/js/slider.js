@@ -3,11 +3,21 @@ $('.slider__content').slick({
    infinite: true,
    slidesToShow: 3,
    slidesToScroll: 1,
-   autoplay: true,
+   // autoplay: true,
    autoplaySpeed: 1000,
    prevArrow: $('.slider__1'),
    nextArrow: $('.slider__2'),
+   responsive: [
+      {
+         breakpoint: 1100,
+         settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+         }
+      },
+   ]
 });
+
 
 //slider2-2
 $('.info__slider-block-2').slick({

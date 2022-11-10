@@ -48,9 +48,14 @@ nav {
 }
 
 .hero {
+   min-height: 100rem;
+   width: 100%;
    background: #1e1e1e url(../images/header/background.jpg) no-repeat center center;
    background-size: cover;
-   min-height: 100rem;
+
+   @media screen and (max-width: 700px) {
+      min-height: 50rem;
+   }
 }
 
 .decoration {
@@ -73,6 +78,10 @@ nav {
    text-align: center;
    letter-spacing: 0.05em;
    text-transform: uppercase;
+
+   @media screen and (max-width: 450px) {
+      font-size: 3rem;
+   }
 }
 
 .block__title-services {

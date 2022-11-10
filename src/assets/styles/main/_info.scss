@@ -3,11 +3,15 @@
 
    display: flex;
    justify-content: space-between;
+
+   @media screen and (max-width: 1200px) {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
 }
 
 .info__list {
-   max-width: 53rem;
-   width: 100%;
+   flex-basis: 53rem;
 
    .info__item {
       .info__item-block {
@@ -43,6 +47,10 @@
    max-width: 64rem;
    width: 100%;
 
+   @media screen and (max-width: $br-sm) {
+      padding-bottom: 5rem;
+   }
+
    .info__slider-block {
       margin-bottom: 4rem;
    }
@@ -56,6 +64,14 @@
       text-align: center;
       letter-spacing: 0.05em;
       text-transform: uppercase;
+
+      @media screen and (max-width: $br-sm) {
+         font-size: 1.3rem;
+      }
+
+      @media screen and (max-width: $br-mobile) {
+         font-size: 0.9rem;
+      }
    }
 
    .slider__arrow {

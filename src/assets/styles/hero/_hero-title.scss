@@ -12,6 +12,18 @@
       font-family: $fontdold;
       color: $colorSecond;
       text-align: center;
+
+      @media screen and (max-width: 700px) {
+         margin-top: 2rem;
+      }
+
+      @media screen and (max-width: $br-md) {
+         font-size: 10rem;
+      }
+
+      @media screen and (max-width: $br-mobile) {
+         font-size: 5rem;
+      }
    }
 
    .hero-title-services {
@@ -19,6 +31,15 @@
       font-size: 6.4rem;
       line-height: 125%;
       margin: 22rem auto 3rem;
+
+      @media screen and (max-width: $br-md) {
+         margin-top: 2rem;
+         font-size: 7rem;
+      }
+
+      @media screen and (max-width: $br-mobile) {
+         font-size: 5rem;
+      }
    }
 
    .hero-description {
@@ -30,6 +51,10 @@
       font-size: 4rem;
       line-height: 120%;
       text-align: center;
+
+      @media screen and (max-width: $br-mobile) {
+         font-size: 3rem;
+      }
    }
 
    .hero-btn {
@@ -40,5 +65,9 @@
 
    .hero-btn-services {
       margin: 9rem auto 10rem;
+
+      @media screen and (max-width: $br-mobile) {
+         margin: 0 auto;
+      }
    }
 }

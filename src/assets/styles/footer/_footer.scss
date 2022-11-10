@@ -4,9 +4,16 @@
    padding: 3.3rem 0;
 
    .footer__inner {
+      margin: 0 3%;
+
       display: flex;
       justify-content: space-between;
       align-items: center;
+
+      @media screen and (max-width: $br-xl) {
+         flex-direction: column;
+         gap: 2rem;
+      }
    }
 
    .footer__copy {
@@ -15,5 +22,20 @@
       letter-spacing: 0.05em;
       text-transform: uppercase;
       color: rgba($colorMain, 0.5);
+
+      @media screen and (max-width: $br-sm) {
+         margin: 0 auto 2rem;
+         max-width: 30rem;
+      }
+   }
+
+   .footer__nav {
+      .header__list {
+         display: flex;
+
+         @media screen and (max-width: $br-sm) {
+            flex-direction: column;
+         }
+      }
    }
 }
